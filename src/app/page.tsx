@@ -82,9 +82,11 @@ export default function Home() {
                                     <div className="col-md-12">
                                         <video
                                             className=" w-full h-full "
-                                            autoPlay
-                                            loop
-                                            muted
+     autoPlay
+    loop
+    muted
+    playsInline
+    preload="auto"
                                         >
                                             <source src="/assets/bgbanner.mp4" type="video/mp4" />
                                             Your browser does not support the video tag.
